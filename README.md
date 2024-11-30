@@ -17,29 +17,29 @@ Description  : Ubuntu 22.02.5 LTS <br>
 Release      : 22.04 <br>
 Codename     : Jammy <br>
 
-'''bash
+```bash
 #Install NginX
 sudo apt install nginx
 sudo apt install nginx
 
 #Memeriksa status
 sudo systemctl status nginx
-'''
+```
 
 ### Melihat paket NginX
-'''bash
+```bash
 sudo ufw app list
-'''
+```
 
 ### Mengizinkan http Nginx
-'''bash
+```bash
 sudo ufw allow 'Nginx HTTP'
-'''
+```
 
 ## cek ufw status
-bash'''
+bash```
 sudo ufw status
-'''
+```
 
 ### setting server blocks
 
