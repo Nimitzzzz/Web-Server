@@ -6,9 +6,7 @@ ANDI AHMAD FAUZAN
 
 ### VERSI & SPESIFIKASI SERVER
 
-- ginx web server
-- squid server
-- load balancer harproxy
+- nginx/1.18.0 (Ubuntu)
 
 ### OS
 
