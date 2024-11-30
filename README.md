@@ -18,11 +18,11 @@ Release      : 22.04 <br>
 Codename     : Jammy <br>
 
 '''bash
-# Install NginX
+#Install NginX
 sudo apt install nginx
 sudo apt install nginx
 
-# Memeriksa status
+#Memeriksa status
 sudo systemctl status nginx
 '''
 
