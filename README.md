@@ -45,7 +45,7 @@ sudo mkdir -p /var/www/nimitzzzzsever/html
 sudo chown -R $USER:$USER /var/www/
 nimitzzzzserver
 sudo chmod -R 755 /var/www/nimitzzzz
-nano /var/nimitzzzz/html/index.html
+nano /var/nimitzzzzserver/html/index.html
 ```
 
 ### sample
