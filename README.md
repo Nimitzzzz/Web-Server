@@ -41,7 +41,7 @@ sudo ufw status
 
 ### setting server blocks
 ```bash
-sudo mkdir -p /var/www/nimitzzzzsever/html
+sudo mkdir -p /var/www/nimitzzzzserver/html
 sudo chown -R $USER:$USER /var/www/
 nimitzzzzserver
 sudo chmod -R 755 /var/www/nimitzzzzserver
