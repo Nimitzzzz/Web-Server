@@ -44,7 +44,7 @@ sudo ufw status
 sudo mkdir -p /var/www/nimitzzzzsever/html
 sudo chown -R $USER:$USER /var/www/
 nimitzzzzserver
-sudo chmod -R 755 /var/www/nimitzzzz
+sudo chmod -R 755 /var/www/nimitzzzzserver
 nano /var/nimitzzzzserver/html/index.html
 ```
 
@@ -86,7 +86,7 @@ server {
         #
         # include snippets/snakeoil.conf;
 
-        root /var/www/nimitzzzzserer/html;
+        root /var/www/nimitzzzzserver/html;
 
         # Add index.php to the list if you are using PHP
          index index.html index.htm index.nginx-debian.html;
