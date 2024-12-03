@@ -48,18 +48,7 @@ sudo chmod -R 755 /var/www/nimitzzzzserver
 nano /var/nimitzzzzserver/html/index.html
 ```
 
-### sample
-```bash
-<html>
-    <head>
-        <title>Hai, selamat datang di nimitzzzz server</title>
-    </head>
-    <body>
-        <h1>Aku Sayang Kamu</h1>
-    </body>
-</html>
 
-```
 ### Konfigurasi NginX
 untuk melakukan konfigurasi menggunakan nano
 ```bash
