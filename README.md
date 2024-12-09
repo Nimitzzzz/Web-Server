@@ -20,9 +20,9 @@ Description  : Ubuntu 22.02.5 LTS <br>
 Release      : 22.04 <br>
 Codename     : Jammy <br>
 
+### Membuat Struktur Direktori
 ```bash
 #Install NginX
-sudo apt install nginx
 sudo apt install nginx
 
 #Memeriksa status
