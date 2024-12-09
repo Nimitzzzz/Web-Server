@@ -7,9 +7,11 @@ ANDI AHMAD FAUZAN
 ### YANG SAYA GUNAKAN
 
 - nginx / 1.18.0 
-- Flask / 2.1.0
+- Flask / 3.1.0
 - MySQL / 8.0.40
+- Samba / 4.15.13
 - Gunicorn / 23.0.0
+- phpMyAdmin /
 
 ### OS
 
