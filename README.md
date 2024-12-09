@@ -1,12 +1,16 @@
-### Web Service
+### Leaerning Management System Web Service
 
 ANDI AHMAD FAUZAN
 23.83.0970
 23TK01
 
-### VERSI & SPESIFIKASI SERVER
+### YANG SAYA GUNAKAN
 
-- nginx/1.18.0 (Ubuntu)
+- nginx/1.18.0 
+- Python
+- Flask
+- MySQL
+- Postfix
 
 ### OS
 
