@@ -7,7 +7,6 @@ ANDI AHMAD FAUZAN
 ### YANG SAYA GUNAKAN
 
 - nginx / 1.18.0 
-- Python / 3.10.12
 - Flask / 2.1.0
 - MySQL / 8.0.40
 - Gunicorn / 23.0.0
