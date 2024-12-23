@@ -1,0 +1,95 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Styling tambahan untuk navbar */
+.navbar {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  font-weight: 500;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0d6efd; /* Warna biru saat hover */
+}
+
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://source.unsplash.com/1600x900/?education,computer") no-repeat center center/cover;
+  color: #fff;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+}
+
+/* Timeline Section */
+.timeline-section {
+  background-color: #f8f9fa;
+  position: relative;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.timeline-content {
+  padding: 1.5rem;
+}
+
+.timeline-content h3 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Section Library Styling */
+.library-section {
+  background-color: #f9f9f9; /* Warna latar belakang ringan */
+}
+
+.book-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  background: #fff;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.book-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.book-image {
+  max-height: 200px; /* Membatasi tinggi gambar */
+  object-fit: cover; /* Menjaga aspek rasio gambar */
+  border-radius: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .timeline-item {
+    flex-direction: column;
+  }
+
+  .timeline-content,
+  iframe {
+    margin-bottom: 1rem;
+  }
+}
