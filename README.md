@@ -5,12 +5,11 @@ ANDI AHMAD FAUZAN
 
 
 # YANG SAYA GUNAKAN
-- nginx / 1.18.0 
-- Flask / 3.1.0
-- MySQL / 8.0.40
-- Samba / 4.15.13
-- Gunicorn / 23.0.0
-- phpMyAdmin /
+- SSH  /  8.9
+- nginx /  1.18.0 
+- Flask /  3.1.0
+- MySQL /  8.0.40
+- Gunicorn /  23.0.0
 
 
 # OS
@@ -99,19 +98,25 @@ main = Blueprint('main', __name__)
 def index():
     return render_template('index.html')
 
-#Didalam app/templates/index.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LMS Home</title>
-</head>
-<body>
-    <h1>Selamat Datang Di Web Saya</h1>
-</body>
-</html>
-```
+@main.route('/python')
+def python_page():
+    return render_template('python.html')
+
+@main.route('/jarkom')
+def jarkom_page():
+    return render_template('jarkom.html')
+
+@main.route('/library')
+def library_page():
+    return render_template('library.html')
+
+@main.route('/spj')
+def spj_page():
+    return render_template('spj.html')
+
+@main.route('/web')
+def web_page():
+    return render_template('web.html')
 
 # Konfigurasi file run.py & menjalankannya
 ```bash
